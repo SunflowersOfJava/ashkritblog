@@ -39,7 +39,7 @@ public class StringSplitTestApp {
                 }
             }
             long total = System.currentTimeMillis() - start;
-            System.out.println(String.format("Class %s produced %s tokens in %s ms", s.getClass().getSimpleName(), count, total));
+            System.out.println(String.format("Class %24s produced %s tokens in %10s ms", s.getClass().getSimpleName(), count, total));
         }
     }
 
